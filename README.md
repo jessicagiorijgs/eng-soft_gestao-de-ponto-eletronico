@@ -11,7 +11,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
 ### Grupo:
   * Christian Vieira (2014106325)
   * Délisson Junio (2015004119)
-  * Gabriel Gouvea ()
+  * Gabriel Gouvea (2019026150)
   * Jéssica Giori Silva (2017013301)
   * Luiz Felipe Rocha (2017051386)
 
