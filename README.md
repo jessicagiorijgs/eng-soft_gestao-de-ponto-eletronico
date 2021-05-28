@@ -35,4 +35,4 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     HTML, CSS
     VueJS
 #### Organização:
-    #### Azure Devops
+    Azure Devops
