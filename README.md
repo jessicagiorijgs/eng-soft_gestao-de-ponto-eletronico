@@ -16,13 +16,13 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
   * Luiz Felipe Rocha (2017051386)
 
 #### Features:
-  Cadastro e login de colaboradores e administradores
-  Registro e alterações de registro de ponto (apontamento de horas)
-  Extração/exportação de relatórios de pontos (diário, semanal, quinzenal, mensal, intervalo)
-  Requisição e aprovação de horas extras
-  Justificativa de ajuste (ausência, atraso, etc) 
-  Localização do usuário
-  Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo 
+  1. Cadastro e login de colaboradores e administradores
+  2. Registro e alterações de registro de ponto (apontamento de horas)
+  3. Extração/exportação de relatórios de pontos (diário, semanal, quinzenal, mensal, intervalo)
+  4. Requisição e aprovação de horas extras
+  5. Justificativa de ajuste (ausência, atraso, etc) 
+  6. Localização do usuário
+  7. Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo 
 
 ### Tecnologias:
   #### Backend:
