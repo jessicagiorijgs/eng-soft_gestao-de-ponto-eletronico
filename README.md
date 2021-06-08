@@ -15,15 +15,6 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
   * Jéssica Giori Silva (2017013301)
   * Luiz Felipe Rocha (2017051386)
 
-### Features:
-  1. Cadastro e login de colaboradores e administradores
-  2. Registro e alterações de registro de ponto (apontamento de horas)
-  3. Extração/exportação de relatórios de pontos (diário, semanal, quinzenal, mensal, intervalo)
-  4. Requisição e aprovação de horas extras
-  5. Justificativa de ajuste (ausência, atraso, etc) 
-  6. Localização do usuário
-  7. Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo 
-
 ### Tecnologias:
   #### Backend:
     Docker
@@ -37,8 +28,19 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
 ### Organização:
     Azure Devops: https://dev.azure.com/jessicagiori/Engenharia%20de%20Software/_backlogs/backlog/Engenharia%20de%20Software%20Team/Epics
 
-##### Feature 1: Cadastro e login de colaboradores e administradores.
-##### Responsável: Délisson Junio
+### Backlog do Produto:
+#### Features:
+  1. Cadastro e login de colaboradores e administradores
+  2. Registro e alterações de registro de ponto (apontamento de horas)
+  3. Extração/exportação de relatórios de pontos (diário, semanal, quinzenal, mensal, intervalo)
+  4. Requisição e aprovação de horas extras
+  5. Justificativa de ajuste (ausência, atraso, etc) 
+  6. Localização do usuário
+  7. Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo 
+  
+### Backlog da Sprint:
+
+##### Feature 1: Cadastro e login de colaboradores e administradores. Responsável: Délisson Junio
 
 ###### Historia 1: Como um usuário, eu gostaria de fazer login no sistema.
     Task 1: Criar tabelas de usuários no banco de dados
@@ -72,9 +74,16 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 3: Permitir a edição dos dados
     Task 4: Receber dados alterados e armazenar as novas informações no banco de dados
 
-##### Feature 7: Construção de um Relatório Sintético.
-##### Responsável: Jéssica Giori
+##### Feature 2: Registro e alterações de registro de ponto (apontamento de horas). Responsável: 
+###### Historia 1:
 
+##### Feature 3: Requisição e aprovação de horas extras. Responsável: 
+###### Historia 1:
+
+##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: 
+###### Historia 1:
+
+##### Feature 5: Construção de um Relatório Sintético. Responsável: Jéssica Giori
 ###### Historia 1: Como um gestor, eu gostaria de consultar o banco de horas do meu departamento utilizando como filtros: período, funcionário ou cargo.
     Task 1: Fazer modelagem do relatório
     Task 2: Modelar query
