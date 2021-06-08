@@ -37,6 +37,41 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
 ### Organização:
     Azure Devops: https://dev.azure.com/jessicagiori/Engenharia%20de%20Software/_backlogs/backlog/Engenharia%20de%20Software%20Team/Epics
 
+##### Feature 1: Cadastro e login de colaboradores e administradores.
+##### Responsável: Délisson Junio
+
+###### Historia 1: Como um usuário, eu gostaria de fazer login no sistema.
+    Task 1: Criar tabelas de usuários no banco de dados
+    Task 2: Criar tela de login
+    Task 3: Receber credenciais do usuário
+    Task 4: Validar credenciais no banco de dados
+    Task 5: Permitir a entrada do usuário caso as credenciais sejam válidas
+
+###### Historia 2: Como um administrador, eu gostaria de cadastrar um novo colaborador.
+    Task 1: Criar tela de cadastro de novo perfil
+    Task 2: Armazenar perfil no sistema
+    Task 3: Gerar credenciais iniciais
+    Task 4: Transmitir credenciais por e-mail
+
+###### Historia 3: Como um usuário, eu gostaria de recuperar meu acesso em caso de perda de credenciais.
+    Task 1: Criar botão "esqueci minha senha"
+    Task 2: Criar tela de recuperação de credenciais
+    Task 3: Receber dados do usuário
+    Task 4: Enviar e-mail de verificação
+    Task 5: Validar identidade do usuário
+    Task 6: Criar tela de escolha de nova senha
+    Task 7: Armazenar a nova senha no sistema
+
+###### Historia 4: Como um administrador, eu gostaria visualizar uma lista dos colaboradores no sistema.
+    Task 1: Criar tela de listagem de colaboradores com nome e função
+    Task 2: Criar tela de visualização de colaborador individual com nome, função, e-mail e telefone
+
+###### Historia 5: Como um administrador, eu gostaria de alterar dados do perfil de outro usuário.
+    Task 1: Criar tela de edição de perfil de usuário
+    Task 2: Preencher dados na tela com informações do banco de dados
+    Task 3: Permitir a edição dos dados
+    Task 4: Receber dados alterados e armazenar as novas informações no banco de dados
+
 ##### Feature 7: Construção de um Relatório Sintético.
 ##### Responsável: Jéssica Giori
 
