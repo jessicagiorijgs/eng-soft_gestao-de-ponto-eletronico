@@ -40,20 +40,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
   
 ### Backlog da Sprint:
 
-##### Feature 1: Cadastro e login de colaboradores e administradores. Responsável: 
-###### Historia 1:
-
-##### Feature 2: Registro e alterações de registro de ponto (apontamento de horas). Responsável: 
-###### Historia 1:
-
-##### Feature 3: Requisição e aprovação de horas extras. Responsável: 
-###### Historia 1:
-
-##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: 
-###### Historia 1:
-
-##### Feature 1: Cadastro e login de colaboradores e administradores.
-##### Responsável: Délisson Junio
+##### Feature 1: Cadastro e login de colaboradores e administradores. Responsável: Délisson Junio
 
 ###### Historia 1: Como um usuário, eu gostaria de fazer login no sistema.
     Task 1: Criar tabelas de usuários no banco de dados
@@ -86,6 +73,15 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 2: Preencher dados na tela com informações do banco de dados
     Task 3: Permitir a edição dos dados
     Task 4: Receber dados alterados e armazenar as novas informações no banco de dados
+
+##### Feature 2: Registro e alterações de registro de ponto (apontamento de horas). Responsável: 
+###### Historia 1:
+
+##### Feature 3: Requisição e aprovação de horas extras. Responsável: 
+###### Historia 1:
+
+##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: 
+###### Historia 1:
 
 ##### Feature 5: Construção de um Relatório Sintético. Responsável: Jéssica Giori
 ###### Historia 1: Como um gestor, eu gostaria de consultar o banco de horas do meu departamento utilizando como filtros: período, funcionário ou cargo.
