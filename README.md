@@ -74,8 +74,40 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 3: Permitir a edição dos dados
     Task 4: Receber dados alterados e armazenar as novas informações no banco de dados
 
-##### Feature 2: Registro e alterações de registro de ponto (apontamento de horas). Responsável: 
-###### Historia 1:
+##### Feature 2: Registro e alterações de registro de ponto (apontamento de horas). Responsável: Délisson Junio
+
+###### Historia 1: Como um colaborador, eu gostaria de marcar um ponto.
+    Task 1: Criar tabelas de ponto no banco de dados
+    Task 2: Criar tela de marcar ponto
+    Task 3: Receber pedido de ponto do colaborador
+    Task 4: Analisar o ponto anterior e decidir se o ponto atual é de chegada, saída de almoço, volta de almoço ou saída da empresa
+    Task 5: Registrar o ponto no banco de dados
+    Task 6: Emitir comprovante para o colaborador
+
+###### Historia 2: Como um administrador, eu gostaria de verificar os pontos de um colaborador.
+    Task 1: Adicionar tela de visualização de pontos de todos os colaboradores
+    Task 2: Restringir essa tela para administradores apenas
+    Task 3: Ler pontos do banco de dados
+    Task 4: Listar todos os pontos para um dado colaborador
+    Task 5: Adicionar opção na tela de visualização de perfil de colaborador para ver os pontos
+
+###### Historia 3: Como um colaborador, eu gostaria de visualizar meus pontos.
+    Task 1: Criar tela de visualização de pontos do colaborador
+    Task 2: Ler pontos do banco de dados
+    Task 3: Listar todos os pontos do colaborador atual
+
+###### Historia 4: Como um colaborador, eu gostaria de solicitar uma alteração de ponto.
+    Task 1: Criar tabelas de pedidos de alteração de ponto no banco de dados
+    Task 2: Na tela de visualização de pontos do colaborador, adicionar opção para pedir alteração
+    Task 3: Receber informação de justificativa do colaborador e registrar um pedido de alteração de ponto no banco de dados
+
+###### Historia 5: Como um administrador, eu gostaria de aceitar ou recusar um pedido de alteração de ponto.
+    Task 1: Criar tela de visualização de pedidos de alteração de pontos
+    Task 2: Restringir essa tela para administradores apenas
+    Task 3: Preencher dados na tela com informações do banco de dados
+    Task 4: Permitir a escolha de aceitação ou recusa da justificativa, com a opção de entrada de réplica
+    Task 5: Receber decisão e armazenar no banco de dados
+    Task 6: Alterar registros de ponto, caso a decisão tenha sido de aceite
 
 ##### Feature 3: Requisição e aprovação de horas extras. Responsável: 
 ###### Historia 1:
