@@ -36,7 +36,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
   4. Requisição e aprovação de horas extras
   5. Justificativa de ajuste (ausência, atraso, etc) 
   6. Localização do usuário
-  7. Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo 
+  7. Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo, localização)
   
 ### Backlog da Sprint:
 
@@ -109,40 +109,8 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 5: Receber decisão e armazenar no banco de dados
     Task 6: Alterar registros de ponto, caso a decisão tenha sido de aceite
 
-##### Feature 3: Requisição e aprovação de horas extras. Responsável: Luiz Rocha
-###### Historia 1: Como um colaborador, eu gostaria de requisitar horas extras.
-    Task 1: Criar tabela de horas extras no banco de dados
-    Task 2: Criar tela para requisitar horas extras 
-    Task 3: Receber pedido do colaborador
-    Task 4: Verificar se o pedido respeita o limite de 2 hora diárias
-    Task 5: Retornar aviso ao usuário se o pedido exceder o limite
-    Task 6: Registrar se o pedido é em dia útil ou não
-    Task 7: Registar pedido no banco de dados
-   
-    
-###### Historia 2: Como um colaborador, eu gostaria de consultar minhas horas extras.
-    Task 1: Criar tela de visualização de pedidos de horas extras
-    Task 2: Ler horas do banco de dados
-    Task 3: Listar todas as horas extras do usuário atual
-    
-###### Historia 3: Como um administrador, eu gostaria de aceitar ou recusar pedidos de horas extras.
-    Task 1: Adicionar tela de visualização de pedidos de horas extras
-    Task 2: Restringir essa tela para administradores
-    Task 3: Preencher dados na tela com informação do banco de dados
-    Task 4: Aceitar ou recusar o pedido, com opção de justificativa pelo gestor e réplica pela colaborador
-    Task 5: Receber decisão e armazenar no banco de dados
-    Task 6: Registar horas extras no banco de dados
-    
-###### Historia 4: Como um administrador, eu gostaria de adicionar horas extras trabalhadas.
-    Task 1: Adicionar tela de visualização de horas extras
-    Task 2: Restringir essa tela para administradores
-    Task 3: Preencher dados na tela com informação do banco de dados
-    Task 4: Receber entrada do administrador
-    Task 5: Verificar se o pedido respeita o limite de 2 horas diárias
-    Task 6: Retornar aviso ao administrador se o pedido exceder o limite
-    Task 7: Registrar se as horas extras são em dia útil ou não
-    Task 8: Registar horas extras no banco de dados
-  
+##### Feature 3: Requisição e aprovação de horas extras. Responsável: 
+###### Historia 1:
 
 ##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: 
 ###### Historia 1:
@@ -187,3 +155,30 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 4: Limitar visualização para o usuário administrador
     Task 5: Fazer commit
     Task 6: Validar
+
+##### Feature 6: Localização do usuário. Responsável: Christian Vieira
+
+###### Historia 1: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
+    Task 1: Criar tela onde o usuário pode verificar localização atual
+    Task 2: Integração com serviço de geocoding reverso (obter endereço a partir de coordenadas geográficas (latitude e longitude)
+    Task 3: Persistir localização no banco de dados (coordenadas geográficas - latitude e longitude; endereço)
+    Task 4: Possibilitar usuário realizar pequenas correções na sua localização, dentro de um limite aceitável (por exemplo em um raio de 100m)
+    
+###### Historia 2: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
+    Task 1: Criar tela onde o usuário pode verificar localização atual
+    
+##### Feature 7: Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo, localização). Responsável: Christian Vieira
+###### Historia 1: Como um usuário, eu gostaria de obter relatório sintético exibindo as informações de banco de horas, horas extras, faltas e atrasos, absenteísmo e localização
+    Task 1: Relatório sintético contendo: saldo de banco de horas, horas extras, atrasos, absenteísmo e localização
+    Task 2: Exportação do relatório em formato pdf e/ou cvs
+    Task 3: Assinatura do relatório mensal como folha de ponto mensal
+    
+###### Historia 2: Como um gestor, eu gostaria de obter relatório sintético exibindo as informações de banco de horas, horas extras, faltas e atrasos, absenteísmo e localização
+    Task 1: Relatório sintético contendo: saldo de banco de horas, horas extras, atrasos, absenteísmo e localização de um usuário ou grupo de usuários.
+    
+###### Historia 3: Como usuário, eu gostaria de assinar e submeter folha de ponto mensal
+    Task 1: Formulário para submissão contendo assinatura eletrônica do funcionário
+
+###### Historia 4: Como gestor, eu gostaria de solicitar assinatura da folha de ponto mensal de um usuário ou grupo de usuários
+    Task 1: Formulário para solicitação da assinatura eletrônica do funcionário
+    
