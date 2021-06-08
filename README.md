@@ -142,8 +142,17 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 7: Registrar se as horas extras são em dia útil ou não
     Task 8: Registar horas extras no banco de dados
 
-##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: 
-###### Historia 1:
+##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: Gabriel Gouvea
+###### Historia 1: Como usuário, eu gostaria de inserir justificativa de ajuste no ponto
+    Task 1: Formulário com caixa de texto para inserção da justificativa
+    Task 2: Submissão para autorização do gestor
+    Task 3: Persistência da justificativa no banco de dados
+    
+###### Historia 2: Como usuário, eu gostaria de poder autorizar justificativa de ajuste o ponto por parte do usuário
+    Task 1: Consulta de todas as justificativas por usuário ou grupo de usuários
+    Task 2: Formulário para aceitação/negação da justificativa
+    Task 3: Persistência da aceitação/negação da justificativa no banco de dados
+   
 
 ##### Feature 5: Construção de um Relatório Sintético. Responsável: Jéssica Giori
 ###### Historia 1: Como um gestor, eu gostaria de consultar o banco de horas do meu departamento utilizando como filtros: período, funcionário ou cargo.
@@ -196,19 +205,4 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     
 ###### Historia 2: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
     Task 1: Criar tela onde o usuário pode verificar localização atual
-    
-##### Feature 7: Relatório sintético. Responsável: Christian Vieira
-###### Historia 1: Como um usuário, eu gostaria de obter relatório sintético exibindo as informações de banco de horas, horas extras, faltas e atrasos, absenteísmo e localização
-    Task 1: Relatório sintético contendo: saldo de banco de horas, horas extras, atrasos, absenteísmo e localização
-    Task 2: Exportação do relatório em formato pdf e/ou cvs
-    Task 3: Assinatura do relatório mensal como folha de ponto mensal
-    
-###### Historia 2: Como um gestor, eu gostaria de obter relatório sintético exibindo as informações de banco de horas, horas extras, faltas e atrasos, absenteísmo e localização
-    Task 1: Relatório sintético contendo: saldo de banco de horas, horas extras, atrasos, absenteísmo e localização de um usuário ou grupo de usuários.
-    
-###### Historia 3: Como usuário, eu gostaria de assinar e submeter folha de ponto mensal
-    Task 1: Formulário para submissão contendo assinatura eletrônica do funcionário
-
-###### Historia 4: Como gestor, eu gostaria de solicitar assinatura da folha de ponto mensal de um usuário ou grupo de usuários
-    Task 1: Formulário para solicitação da assinatura eletrônica do funcionário
     
