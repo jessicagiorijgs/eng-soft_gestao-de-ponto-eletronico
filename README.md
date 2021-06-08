@@ -109,8 +109,38 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
     Task 5: Receber decisão e armazenar no banco de dados
     Task 6: Alterar registros de ponto, caso a decisão tenha sido de aceite
 
-##### Feature 3: Requisição e aprovação de horas extras. Responsável: 
-###### Historia 1:
+##### Feature 3: Requisição e aprovação de horas extras. Responsável: Luiz Rocha
+###### Historia 1: Como um colaborador, eu gostaria de requisitar horas extras.
+    Task 1: Criar tabela de horas extras no banco de dados
+    Task 2: Criar tela para requisitar horas extras 
+    Task 3: Receber pedido do colaborador
+    Task 4: Verificar se o pedido respeita o limite de 2 hora diárias
+    Task 5: Retornar aviso ao usuário se o pedido exceder o limite
+    Task 6: Registrar se o pedido é em dia útil ou não
+    Task 7: Registar pedido no banco de dados
+   
+###### Historia 2: Como um colaborador, eu gostaria de consultar minhas horas extras.
+    Task 1: Criar tela de visualização de pedidos de horas extras
+    Task 2: Ler horas do banco de dados
+    Task 3: Listar todas as horas extras do usuário atual
+    
+###### Historia 3: Como um administrador, eu gostaria de aceitar ou recusar pedidos de horas extras.
+    Task 1: Adicionar tela de visualização de pedidos de horas extras
+    Task 2: Restringir essa tela para administradores
+    Task 3: Preencher dados na tela com informação do banco de dados
+    Task 4: Aceitar ou recusar o pedido, com opção de justificativa pelo gestor e réplica pela colaborador
+    Task 5: Receber decisão e armazenar no banco de dados
+    Task 6: Registar horas extras no banco de dados
+    
+###### Historia 4: Como um administrador, eu gostaria de adicionar horas extras trabalhadas.
+    Task 1: Adicionar tela de visualização de horas extras
+    Task 2: Restringir essa tela para administradores
+    Task 3: Preencher dados na tela com informação do banco de dados
+    Task 4: Receber entrada do administrador
+    Task 5: Verificar se o pedido respeita o limite de 2 horas diárias
+    Task 6: Retornar aviso ao administrador se o pedido exceder o limite
+    Task 7: Registrar se as horas extras são em dia útil ou não
+    Task 8: Registar horas extras no banco de dados
 
 ##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: 
 ###### Historia 1:
