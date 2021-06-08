@@ -198,11 +198,11 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
 ##### Feature 6: Localização do usuário. Responsável: Christian Vieira
 
 ###### Historia 1: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
-    Task 1: Criar tela onde o usuário pode verificar localização atual
-    Task 2: Integração com serviço de geocoding reverso (obter endereço a partir de coordenadas geográficas (latitude e longitude)
+    Task 1: Criar tela onde o usuário possa verificar localização atual (mapa geográfico)
+    Task 2: Integração com serviço de geocoding reverso (obtenção de endereço a partir das coordenadas geográficas (latitude e longitude)
     Task 3: Persistir localização no banco de dados (coordenadas geográficas - latitude e longitude; endereço)
-    Task 4: Possibilitar usuário realizar pequenas correções na sua localização, dentro de um limite aceitável (por exemplo em um raio de 100m)
+    Task 4: Possibilitar ao usuário realizar pequenas correções na sua localização, dentro de um limite aceitável (por exemplo em um raio de 100m)
     
 ###### Historia 2: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
-    Task 1: Criar tela onde o usuário pode verificar localização atual
+    Task 1: Criar tela onde o usuário possa verificar localização atual
     
