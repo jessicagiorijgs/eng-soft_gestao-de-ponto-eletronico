@@ -15,7 +15,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
   * Jéssica Giori Silva (2017013301)
   * Luiz Felipe Rocha (2017051386)
 
-#### Features:
+### Features:
   1. Cadastro e login de colaboradores e administradores
   2. Registro e alterações de registro de ponto (apontamento de horas)
   3. Extração/exportação de relatórios de pontos (diário, semanal, quinzenal, mensal, intervalo)
@@ -34,7 +34,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
   #### Frontend:
     HTML, CSS
     VueJS
-#### Organização:
+### Organização:
     Azure Devops: https://dev.azure.com/jessicagiori/Engenharia%20de%20Software/_backlogs/backlog/Engenharia%20de%20Software%20Team/Epics
 
 ##### Feature 7: Construção de um Relatório Sintético.
