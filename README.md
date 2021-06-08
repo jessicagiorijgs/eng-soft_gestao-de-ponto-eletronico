@@ -167,7 +167,7 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
 ###### Historia 2: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
     Task 1: Criar tela onde o usuário pode verificar localização atual
     
-##### Feature 7: Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo, localização). Responsável: Christian Vieira
+##### Feature 7: Relatório sintético. Responsável: Christian Vieira
 ###### Historia 1: Como um usuário, eu gostaria de obter relatório sintético exibindo as informações de banco de horas, horas extras, faltas e atrasos, absenteísmo e localização
     Task 1: Relatório sintético contendo: saldo de banco de horas, horas extras, atrasos, absenteísmo e localização
     Task 2: Exportação do relatório em formato pdf e/ou cvs
