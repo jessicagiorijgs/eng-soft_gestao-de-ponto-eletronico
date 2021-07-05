@@ -37,8 +37,6 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
   5. Justificativa de ajuste (ausência, atraso, etc) 
   6. Localização do usuário
   7. Relatório sintético (banco de horas, horas extras, faltas e atrasos, absenteísmo, localização)
-  
-### Backlog da Sprint:
 
 ##### Feature 1: Cadastro e login de colaboradores e administradores. Responsável: Délisson Junio
 
@@ -206,3 +204,55 @@ Sistema web para Controle de Ponto de colaboradores (funcionários).
 ###### Historia 2: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
     Task 1: Criar tela onde o usuário possa verificar localização atual
     
+### Backlog da Sprint:
+
+##### Feature 1: Cadastro e login de colaboradores e administradores. Responsável: Délisson Junio
+
+###### Historia 1: Como um usuário, eu gostaria de fazer login no sistema.
+    Task 1: Criar tabelas de usuários no banco de dados
+    Task 2: Criar tela de login
+    Task 3: Receber credenciais do usuário
+    Task 4: Validar credenciais no banco de dados
+    Task 5: Permitir a entrada do usuário caso as credenciais sejam válidas
+
+##### Feature 2: Registro e alterações de registro de ponto (apontamento de horas). Responsável: Délisson Junio
+
+###### Historia 1: Como um colaborador, eu gostaria de marcar um ponto.
+    Task 1: Criar tabelas de ponto no banco de dados
+    Task 2: Criar tela de marcar ponto
+    Task 3: Receber pedido de ponto do colaborador
+    Task 4: Analisar o ponto anterior e decidir se o ponto atual é de chegada, saída de almoço, volta de almoço ou saída da empresa
+    Task 5: Registrar o ponto no banco de dados
+    Task 6: Emitir comprovante para o colaborador
+
+##### Feature 3: Requisição e aprovação de horas extras. Responsável: Luiz Rocha
+###### Historia 1: Como um colaborador, eu gostaria de requisitar horas extras.
+    Task 1: Criar tabela de horas extras no banco de dados
+    Task 2: Criar tela para requisitar horas extras 
+    Task 3: Receber pedido do colaborador
+    Task 4: Verificar se o pedido respeita o limite de 2 hora diárias
+    Task 5: Retornar aviso ao usuário se o pedido exceder o limite
+    Task 6: Registrar se o pedido é em dia útil ou não
+    Task 7: Registar pedido no banco de dados
+
+##### Feature 4: Justificativa de ajuste (ausência, atraso, etc). Responsável: Gabriel Gouvea
+###### Historia 1: Como usuário, eu gostaria de inserir justificativa de ajuste no ponto
+    Task 1: Formulário com caixa de texto para inserção da justificativa
+    Task 2: Submissão para autorização do gestor
+    Task 3: Persistência da justificativa no banco de dados
+
+##### Feature 5: Construção de um Relatório Sintético. Responsável: Jéssica Giori
+###### Historia 1: Como um gestor, eu gostaria de consultar o banco de horas do meu departamento utilizando como filtros: período, funcionário ou cargo.
+    Task 1: Fazer modelagem do relatório
+    Task 2: Modelar query
+    Task 3: Implementar relatório
+    Task 4: Limitar visualização para o usuário administrador
+    Task 5: Fazer commit
+    Task 6: Validar
+
+##### Feature 6: Localização do usuário. Responsável: Christian Vieira
+###### Historia 1: Como um usuário, eu gostaria de automaticamente obter localização geoespacial de forma automática sempre que registrar ponto
+    Task 1: Criar tela onde o usuário possa verificar localização atual (mapa geográfico)
+    Task 2: Integração com serviço de geocoding reverso (obtenção de endereço a partir das coordenadas geográficas (latitude e longitude)
+    Task 3: Persistir localização no banco de dados (coordenadas geográficas - latitude e longitude; endereço)
+    Task 4: Possibilitar ao usuário realizar pequenas correções na sua localização, dentro de um limite aceitável (por exemplo em um raio de 100m)
